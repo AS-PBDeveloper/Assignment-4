@@ -1,341 +1,452 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jon Daniel | Design Portfolio</title>
-    <meta name="description" content="Personal portfolio of Jon Daniel, featuring projects, awards, and design insights.">
-    
+    <meta
+      name="description"
+      content="Personal portfolio of Jon Daniel, featuring projects, awards, and design insights."
+    />
+
     <!-- Open Graph / Social Media -->
-    <meta property="og:title" content="Jon Daniel | Design Portfolio">
-    <meta property="og:description" content="Personal portfolio of Jon Daniel, featuring projects, awards, and design insights.">
-    <meta property="og:image:alt" content="Jon Daniel Portfolio Preview">
-    <meta name="twitter:title" content="Jon Daniel | Design Portfolio">
-    <meta name="twitter:description" content="Personal portfolio of Jon Daniel, featuring projects, awards, and design insights.">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body class="p-4 md:p-8 lg:p-12">
-    <main class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
-        
-        <!-- Left Sidebar Section -->
-        <section class="lg:col-span-4 relative">
-            <!-- Side Labels (Desktop only) -->
-            <div class="hidden lg:flex flex-col absolute -left-12 top-1/2 -translate-y-1/2 gap-12 text-[10px] uppercase tracking-[0.2em] font-bold text-brand-dark/40 origin-center -rotate-180" style="writing-mode: vertical-rl;">
-                <span>Podcast</span>
-                <span>Portfolio</span>
-                <span>Research</span>
-                <span>Clients</span>
+    <meta property="og:title" content="Jon Daniel | Design Portfolio" />
+    <meta
+      property="og:description"
+      content="Personal portfolio of Jon Daniel, featuring projects, awards, and design insights."
+    />
+    <meta property="og:image:alt" content="Jon Daniel Portfolio Preview" />
+    <meta name="twitter:title" content="Jon Daniel | Design Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Personal portfolio of Jon Daniel, featuring projects, awards, and design insights."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="p-4 md:p-8 lg:p-12">
+    <main
+      class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8"
+    >
+      <!-- Left Sidebar Section -->
+      <section class="lg:col-span-4 relative">
+        <!-- Side Labels (Desktop only) -->
+        <div
+          class="hidden lg:flex flex-col absolute -left-12 top-1/2 -translate-y-1/2 gap-12 text-[10px] uppercase tracking-[0.2em] font-bold text-brand-dark/40 origin-center -rotate-180"
+          style="writing-mode: vertical-rl"
+        >
+          <span>Podcast</span>
+          <span>Portfolio</span>
+          <span>Research</span>
+          <span>Clients</span>
+        </div>
+
+        <div
+          class="bg-brand-purple rounded-4xl p-8 pt-20 relative overflow-hidden min-h-[600px] flex flex-col justify-between"
+        >
+          <!-- Top Tab -->
+          <div class="profile-tab-cutout flex items-center px-6 gap-2">
+            <i class="lucide-layout-grid w-4 h-4"></i>
+            <span class="text-xs font-bold uppercase tracking-wider"
+              >About Me</span
+            >
+          </div>
+
+          <!-- Profile Image & Circle -->
+          <div class="relative w-64 h-64 mx-auto mt-8">
+            <div
+              class="absolute inset-0 border-4 border-white/30 rounded-full"
+            ></div>
+            <div
+              class="absolute inset-2 border-2 border-white rounded-full overflow-hidden bg-brand-purple"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400"
+                alt="Jon Daniel"
+                class="w-full h-full object-cover grayscale contrast-125"
+              />
             </div>
+          </div>
 
-            <div class="bg-brand-purple rounded-4xl p-8 pt-20 relative overflow-hidden min-h-[600px] flex flex-col justify-between">
-                <!-- Top Tab -->
-                <div class="profile-tab-cutout flex items-center px-6 gap-2">
-                    <i class="lucide-layout-grid w-4 h-4"></i>
-                    <span class="text-xs font-bold uppercase tracking-wider">About Me</span>
-                </div>
+          <!-- Bio Info -->
+          <div class="mt-auto space-y-4">
+            <h1 class="text-white text-6xl font-bold leading-tight">
+              Im,<br />Jon<br />Daniel
+            </h1>
 
-                <!-- Profile Image & Circle -->
-                <div class="relative w-64 h-64 mx-auto mt-8">
-                    <div class="absolute inset-0 border-4 border-white/30 rounded-full"></div>
-                    <div class="absolute inset-2 border-2 border-white rounded-full overflow-hidden bg-brand-purple">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400" 
-                             alt="Jon Daniel" 
-                             class="w-full h-full object-cover grayscale contrast-125">
-                    </div>
-                </div>
-
-                <!-- Bio Info -->
-                <div class="mt-auto space-y-4">
-                    <h1 class="text-white text-6xl font-bold leading-tight">
-                        Im,<br>Jon<br>Daniel
-                    </h1>
-                    
-                    <div class="flex items-center justify-between pt-8 border-t border-white/20">
-                        <div class="flex items-center gap-2 text-white/80 text-sm font-medium">
-                            <span>inquiry@jondaniel.design</span>
-                            <i class="lucide-mail w-4 h-4"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Rotating Badge -->
-                <div class="absolute bottom-8 right-8 w-24 h-24 bg-brand-dark rounded-full flex items-center justify-center">
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <svg class="w-20 h-20 rotating-text" viewBox="0 0 100 100">
-                            <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="none" />
-                            <text class="text-[10px] uppercase font-bold fill-white tracking-[0.1em]">
-                                <textPath href="#circlePath">
-                                    • My Design Portfolio • 2023
-                                </textPath>
-                            </text>
-                        </svg>
-                    </div>
-                    <div class="w-2 h-2 bg-white rounded-full"></div>
-                </div>
+            <div
+              class="flex items-center justify-between pt-8 border-t border-white/20"
+            >
+              <div
+                class="flex items-center gap-2 text-white/80 text-sm font-medium"
+              >
+                <span>inquiry@jondaniel.design</span>
+                <i class="lucide-mail w-4 h-4"></i>
+              </div>
             </div>
-        </section>
+          </div>
 
-        <!-- Right Grid Section -->
-        <section class="lg:col-span-8 space-y-8">
-            <!-- Header -->
-            <div class="flex items-center justify-between">
-                <h2 class="text-7xl md:text-8xl font-black tracking-tighter flex items-start">
-                    Portfolio
-                    <i class="lucide-arrow-up-right w-12 h-12 md:w-16 md:h-16 ml-2 mt-2"></i>
-                </h2>
+          <!-- Rotating Badge -->
+          <div
+            class="absolute bottom-8 right-8 w-24 h-24 bg-brand-dark rounded-full flex items-center justify-center"
+          >
+            <div class="absolute inset-0 flex items-center justify-center">
+              <svg class="w-20 h-20 rotating-text" viewBox="0 0 100 100">
+                <path
+                  id="circlePath"
+                  d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0"
+                  fill="none"
+                />
+                <text
+                  class="text-[10px] uppercase font-bold fill-white tracking-[0.1em]"
+                >
+                  <textPath href="#circlePath">
+                    • My Design Portfolio • 2026
+                  </textPath>
+                </text>
+              </svg>
             </div>
+            <div class="w-2 h-2 bg-white rounded-full"></div>
+          </div>
+        </div>
+      </section>
 
-            <!-- Bento Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                
-                <!-- Flamingo Video Card -->
-                <div class="md:col-span-2 relative group cursor-pointer overflow-hidden rounded-4xl bg-white aspect-video md:aspect-auto">
-                    <img src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&q=80&w=800" 
-                         alt="Flamingo Project" 
-                         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
-                    <div class="absolute inset-0 bg-black/10 flex items-center justify-center">
-                        <div class="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center shadow-xl">
-                            <i class="lucide-play fill-brand-dark w-6 h-6 ml-1"></i>
-                        </div>
-                    </div>
-                    <i class="lucide-corner-right-up card-corner-icon"></i>
-                </div>
+      <!-- Right Grid Section -->
+      <section class="lg:col-span-8 space-y-8">
+        <!-- Header -->
+        <div class="flex items-center justify-between">
+          <h2
+            class="text-7xl md:text-8xl font-black tracking-tighter flex items-start"
+            style="letter-spacing: 20px"
+          >
+            Portfolio
+            <i
+              class="lucide-arrow-up-right w-12 h-12 md:w-16 md:h-16 ml-2 mt-2"
+            ></i>
+          </h2>
+        </div>
 
-                <!-- Stats Card (Split Vertical) -->
-                <div class="flex flex-col gap-4">
-                    <div class="bg-brand-teal rounded-4xl p-6 flex-1 relative flex flex-col justify-end min-h-[160px]">
-                        <i class="lucide-corner-right-up card-corner-icon"></i>
-                        <span class="text-4xl font-black block">251</span>
-                        <span class="text-sm font-bold text-brand-dark/60">Projects</span>
-                    </div>
-                    <div class="bg-brand-purple rounded-4xl p-6 flex-1 relative flex flex-col justify-end min-h-[160px]">
-                        <i class="lucide-corner-right-up card-corner-icon"></i>
-                        <span class="text-4xl font-black text-white block">156</span>
-                        <span class="text-sm font-bold text-white/60">Awards</span>
-                    </div>
-                </div>
-
-                <!-- Clients Card -->
-                <div class="bg-brand-gray rounded-4xl p-8 relative flex flex-col items-center justify-center gap-4 group cursor-pointer">
-                    <i class="lucide-corner-right-up card-corner-icon text-white/20"></i>
-                    <div class="w-12 h-12 flex items-center justify-center">
-                        <i class="lucide-apple text-white w-10 h-10"></i>
-                    </div>
-                    <span class="text-white font-bold tracking-wider uppercase text-sm">Clients</span>
-                </div>
-
-                <!-- Awards Card (Split Horizontal) -->
-                <div class="md:col-span-2 flex rounded-4xl overflow-hidden min-h-[180px]">
-                    <div class="bg-black w-1/3 flex items-center justify-center relative">
-                        <!-- 3D Sphere Placeholder -->
-                        <div class="w-24 h-24 rounded-full bg-gradient-to-br from-blue-400 via-purple-500 to-pink-400 shadow-[0_0_40px_rgba(139,134,224,0.4)] animate-pulse"></div>
-                    </div>
-                    <div class="bg-brand-orange flex-1 p-8 relative flex flex-col justify-center">
-                        <i class="lucide-corner-right-up card-corner-icon"></i>
-                        <span class="text-4xl font-black block">172</span>
-                        <p class="text-sm font-bold text-brand-dark/70 max-w-[120px]">Global Design Awards.</p>
-                    </div>
-                </div>
-
+        <!-- Bento Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Flamingo Video Card -->
+          <div
+            class="md:col-span-2 relative group cursor-pointer overflow-hidden rounded-4xl bg-white aspect-video md:aspect-auto"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&q=80&w=800"
+              alt="Flamingo Project"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            <div
+              class="absolute inset-0 bg-black/10 flex items-center justify-center"
+            >
+              <div
+                class="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center shadow-xl"
+              >
+                <i class="lucide-play fill-brand-dark w-6 h-6 ml-1"></i>
+                <!-- <i class="ri-play-fill"></i> -->
+              </div>
             </div>
-        </section>
+            <i class="lucide-corner-right-up card-corner-icon"></i>
+          </div>
+
+          <!-- Stats Card (Split Vertical) -->
+          <div class="flex flex-col gap-4">
+            <div
+              class="bg-brand-teal rounded-4xl p-6 flex-1 relative flex flex-col justify-end min-h-[160px]"
+            >
+              <i class="lucide-corner-right-up card-corner-icon"></i>
+              <span class="text-4xl font-black block">251</span>
+              <span class="text-sm font-bold text-brand-dark/60">Projects</span>
+            </div>
+            <div
+              class="bg-brand-purple rounded-4xl p-6 flex-1 relative flex flex-col justify-end min-h-[160px]"
+            >
+              <i class="lucide-corner-right-up card-corner-icon"></i>
+              <span class="text-4xl font-black text-white block">156</span>
+              <span class="text-sm font-bold text-white/60">Awards</span>
+            </div>
+          </div>
+
+          <!-- Clients Card -->
+          <div
+            class="bg-brand-gray rounded-4xl p-8 relative flex flex-col items-center justify-center gap-4 group cursor-pointer"
+          >
+            <i
+              class="lucide-corner-right-up card-corner-icon text-white/20"
+            ></i>
+            <div class="w-12 h-12 flex items-center justify-center">
+              <i class="lucide-apple text-white w-10 h-10"></i>
+            </div>
+            <span class="text-white font-bold tracking-wider uppercase text-sm"
+              >Clients</span
+            >
+          </div>
+
+          <!-- Awards Card (Split Horizontal) -->
+          <div
+            class="md:col-span-2 flex rounded-4xl overflow-hidden min-h-[180px]"
+          >
+            <div
+              class="bg-black w-1/3 flex items-center justify-center relative"
+            >
+              <!-- 3D Sphere Placeholder -->
+              <div
+                class="w-24 h-24 rounded-full bg-gradient-to-br from-blue-400 via-purple-500 to-pink-400 shadow-[0_0_40px_rgba(139,134,224,0.4)] animate-pulse"
+              ></div>
+            </div>
+            <div
+              class="bg-brand-orange flex-1 p-8 relative flex flex-col justify-center"
+            >
+              <i class="lucide-corner-right-up card-corner-icon"></i>
+              <span class="text-4xl font-black block">172</span>
+              <p class="text-sm font-bold text-brand-dark/70 max-w-[120px]">
+                Global Design Awards.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <script type="module" src="./main.js"></script>
 
-<script id="dualite-canvas-overlay-v1">
+    <script id="dualite-canvas-overlay-v1">
+      (function () {
+        if (window.__canvasOverlayInit) return;
+        window.__canvasOverlayInit = true;
 
-(function() {
-  if (window.__canvasOverlayInit) return;
-  window.__canvasOverlayInit = true;
+        try {
+          var enabled = false;
+          let hoveredEl = null;
+          let selectedEl = null;
 
-  try {
+          function getSelector(el) {
+            if (el.id) return "#" + el.id;
+            let path = [];
+            while (
+              el &&
+              el !== document.body &&
+              el !== document.documentElement
+            ) {
+              let tag = el.tagName.toLowerCase();
+              let sibling = el;
+              let nth = 1;
+              while (sibling.previousElementSibling) {
+                sibling = sibling.previousElementSibling;
+                if (sibling.tagName === el.tagName) nth++;
+              }
+              path.unshift(nth > 1 ? tag + ":nth-of-type(" + nth + ")" : tag);
+              el = el.parentElement;
+            }
+            return path.join(" > ");
+          }
 
-  var enabled = false;
-  let hoveredEl = null;
-  let selectedEl = null;
+          function getRect(el) {
+            const r = el.getBoundingClientRect();
+            return {
+              top: r.top,
+              left: r.left,
+              width: r.width,
+              height: r.height,
+            };
+          }
 
-  function getSelector(el) {
-    if (el.id) return '#' + el.id;
-    let path = [];
-    while (el && el !== document.body && el !== document.documentElement) {
-      let tag = el.tagName.toLowerCase();
-      let sibling = el;
-      let nth = 1;
-      while (sibling.previousElementSibling) {
-        sibling = sibling.previousElementSibling;
-        if (sibling.tagName === el.tagName) nth++;
-      }
-      path.unshift(nth > 1 ? tag + ':nth-of-type(' + nth + ')' : tag);
-      el = el.parentElement;
-    }
-    return path.join(' > ');
-  }
+          function getComputedProps(el) {
+            var cs = window.getComputedStyle(el);
+            return {
+              tagName: el.tagName.toLowerCase(),
+              id: el.id || "",
+              className: typeof el.className === "string" ? el.className : "",
+              textContent:
+                el.childNodes.length === 1 && el.childNodes[0].nodeType === 3
+                  ? (el.textContent || "").slice(0, 80)
+                  : "",
+              fontSize: cs.fontSize,
+              fontWeight: cs.fontWeight,
+              fontFamily: cs.fontFamily,
+              color: cs.color,
+              backgroundColor: cs.backgroundColor,
+              opacity: cs.opacity,
+              textAlign: cs.textAlign,
+              padding: cs.padding,
+              margin: cs.margin,
+              borderRadius: cs.borderRadius,
+              borderWidth: cs.borderWidth,
+              borderColor: cs.borderColor,
+              width: cs.width,
+              height: cs.height,
+              display: cs.display,
+            };
+          }
 
-  function getRect(el) {
-    const r = el.getBoundingClientRect();
-    return { top: r.top, left: r.left, width: r.width, height: r.height };
-  }
+          function parseDataDs(ds) {
+            var parts = ds.split(":");
+            if (parts.length < 3) return null;
+            var col = parseInt(parts[parts.length - 1], 10);
+            var line = parseInt(parts[parts.length - 2], 10);
+            var filePath = parts.slice(0, parts.length - 2).join(":");
+            if (!filePath || isNaN(line)) return null;
+            return {
+              sourceFilePath: filePath,
+              sourceLine: line,
+              sourceColumn: isNaN(col) ? null : col,
+            };
+          }
 
-  function getComputedProps(el) {
-    var cs = window.getComputedStyle(el);
-    return {
-      tagName: el.tagName.toLowerCase(),
-      id: el.id || '',
-      className: (typeof el.className === 'string') ? el.className : '',
-      textContent: (el.childNodes.length === 1 && el.childNodes[0].nodeType === 3) ? (el.textContent || '').slice(0, 80) : '',
-      fontSize: cs.fontSize,
-      fontWeight: cs.fontWeight,
-      fontFamily: cs.fontFamily,
-      color: cs.color,
-      backgroundColor: cs.backgroundColor,
-      opacity: cs.opacity,
-      textAlign: cs.textAlign,
-      padding: cs.padding,
-      margin: cs.margin,
-      borderRadius: cs.borderRadius,
-      borderWidth: cs.borderWidth,
-      borderColor: cs.borderColor,
-      width: cs.width,
-      height: cs.height,
-      display: cs.display,
-    };
-  }
+          function getDebugSource(el) {
+            var node = el;
+            while (node && node !== document.documentElement) {
+              if (node.getAttribute) {
+                var ds = node.getAttribute("data-ds");
+                if (ds) {
+                  var parsed = parseDataDs(ds);
+                  if (parsed) return parsed;
+                }
+              }
+              node = node.parentElement;
+            }
 
-  function parseDataDs(ds) {
-    var parts = ds.split(':');
-    if (parts.length < 3) return null;
-    var col = parseInt(parts[parts.length - 1], 10);
-    var line = parseInt(parts[parts.length - 2], 10);
-    var filePath = parts.slice(0, parts.length - 2).join(':');
-    if (!filePath || isNaN(line)) return null;
-    return { sourceFilePath: filePath, sourceLine: line, sourceColumn: isNaN(col) ? null : col };
-  }
+            var workDir = "/home/project/";
+            function strip(f) {
+              if (!f) return "";
+              return f.startsWith(workDir) ? f.slice(workDir.length) : f;
+            }
 
-  function getDebugSource(el) {
-    var node = el;
-    while (node && node !== document.documentElement) {
-      if (node.getAttribute) {
-        var ds = node.getAttribute('data-ds');
-        if (ds) {
-          var parsed = parseDataDs(ds);
-          if (parsed) return parsed;
+            try {
+              var vNode = el;
+              while (vNode && vNode !== document.documentElement) {
+                var vc = vNode.__vueParentComponent;
+                if (vc && vc.type && vc.type.__file) {
+                  return {
+                    sourceFilePath: strip(vc.type.__file),
+                    sourceLine: null,
+                    sourceColumn: null,
+                  };
+                }
+                vNode = vNode.parentElement;
+              }
+            } catch (err) {
+              console.warn("[canvas-overlay] Vue fallback error:", err);
+            }
+
+            return null;
+          }
+
+          function clearOverlayState() {
+            hoveredEl = null;
+            selectedEl = null;
+            window.parent.postMessage({ type: "canvas-hover-clear" }, "*");
+          }
+
+          document.addEventListener(
+            "mousemove",
+            function (e) {
+              if (!enabled) return;
+              const el = document.elementFromPoint(e.clientX, e.clientY);
+              if (!el || el === hoveredEl) return;
+              hoveredEl = el;
+              window.parent.postMessage(
+                {
+                  type: "canvas-hover",
+                  rect: getRect(el),
+                  selector: getSelector(el),
+                },
+                "*",
+              );
+            },
+            true,
+          );
+
+          document.addEventListener(
+            "click",
+            function (e) {
+              if (!enabled) return;
+              e.preventDefault();
+              e.stopPropagation();
+              const el = document.elementFromPoint(e.clientX, e.clientY);
+              if (!el) return;
+              selectedEl = el;
+              var source = getDebugSource(el);
+              window.parent.postMessage(
+                {
+                  type: "canvas-select",
+                  rect: getRect(el),
+                  selector: getSelector(el),
+                  props: getComputedProps(el),
+                  source: source,
+                },
+                "*",
+              );
+            },
+            true,
+          );
+
+          var syncSelectRaf = 0;
+          function postSelectedRectIfAny() {
+            if (!selectedEl) return;
+            if (!selectedEl.isConnected) {
+              selectedEl = null;
+              return;
+            }
+            window.parent.postMessage(
+              {
+                type: "canvas-select-rect",
+                rect: getRect(selectedEl),
+              },
+              "*",
+            );
+          }
+          function scheduleSelectedRectSync() {
+            if (!enabled) return;
+            if (!selectedEl) return;
+            if (syncSelectRaf) return;
+            syncSelectRaf = requestAnimationFrame(function () {
+              syncSelectRaf = 0;
+              postSelectedRectIfAny();
+            });
+          }
+          window.addEventListener("scroll", scheduleSelectedRectSync, true);
+          window.addEventListener("resize", scheduleSelectedRectSync);
+
+          document.addEventListener("mouseleave", function () {
+            if (!enabled) return;
+            hoveredEl = null;
+            window.parent.postMessage({ type: "canvas-hover-clear" }, "*");
+          });
+
+          window.addEventListener("message", function (e) {
+            if (e.source !== window.parent) return;
+            if (!e.data) return;
+            if (e.data.type === "canvas-enable") {
+              enabled = true;
+            } else if (e.data.type === "canvas-disable") {
+              enabled = false;
+              clearOverlayState();
+            } else if (e.data.type === "canvas-deselect") {
+              selectedEl = null;
+            }
+          });
+
+          window.parent.postMessage({ type: "canvas-overlay-ready" }, "*");
+        } catch (err) {
+          window.parent.postMessage(
+            { type: "canvas-overlay-error", message: String(err) },
+            "*",
+          );
         }
-      }
-      node = node.parentElement;
-    }
-
-    var workDir = '/home/project/';
-    function strip(f) {
-      if (!f) return '';
-      return f.startsWith(workDir) ? f.slice(workDir.length) : f;
-    }
-
-    try {
-      var vNode = el;
-      while (vNode && vNode !== document.documentElement) {
-        var vc = vNode.__vueParentComponent;
-        if (vc && vc.type && vc.type.__file) {
-          return { sourceFilePath: strip(vc.type.__file), sourceLine: null, sourceColumn: null };
-        }
-        vNode = vNode.parentElement;
-      }
-    } catch (err) {
-      console.warn('[canvas-overlay] Vue fallback error:', err);
-    }
-
-    return null;
-  }
-
-  function clearOverlayState() {
-    hoveredEl = null;
-    selectedEl = null;
-    window.parent.postMessage({ type: 'canvas-hover-clear' }, '*');
-  }
-
-  document.addEventListener('mousemove', function(e) {
-    if (!enabled) return;
-    const el = document.elementFromPoint(e.clientX, e.clientY);
-    if (!el || el === hoveredEl) return;
-    hoveredEl = el;
-    window.parent.postMessage({
-      type: 'canvas-hover',
-      rect: getRect(el),
-      selector: getSelector(el),
-    }, '*');
-  }, true);
-
-  document.addEventListener('click', function(e) {
-    if (!enabled) return;
-    e.preventDefault();
-    e.stopPropagation();
-    const el = document.elementFromPoint(e.clientX, e.clientY);
-    if (!el) return;
-    selectedEl = el;
-    var source = getDebugSource(el);
-    window.parent.postMessage({
-      type: 'canvas-select',
-      rect: getRect(el),
-      selector: getSelector(el),
-      props: getComputedProps(el),
-      source: source,
-    }, '*');
-  }, true);
-
-  var syncSelectRaf = 0;
-  function postSelectedRectIfAny() {
-    if (!selectedEl) return;
-    if (!selectedEl.isConnected) {
-      selectedEl = null;
-      return;
-    }
-    window.parent.postMessage({
-      type: 'canvas-select-rect',
-      rect: getRect(selectedEl),
-    }, '*');
-  }
-  function scheduleSelectedRectSync() {
-    if (!enabled) return;
-    if (!selectedEl) return;
-    if (syncSelectRaf) return;
-    syncSelectRaf = requestAnimationFrame(function() {
-      syncSelectRaf = 0;
-      postSelectedRectIfAny();
-    });
-  }
-  window.addEventListener('scroll', scheduleSelectedRectSync, true);
-  window.addEventListener('resize', scheduleSelectedRectSync);
-
-  document.addEventListener('mouseleave', function() {
-    if (!enabled) return;
-    hoveredEl = null;
-    window.parent.postMessage({ type: 'canvas-hover-clear' }, '*');
-  });
-
-  window.addEventListener('message', function(e) {
-    if (e.source !== window.parent) return;
-    if (!e.data) return;
-    if (e.data.type === 'canvas-enable') {
-      enabled = true;
-    } else if (e.data.type === 'canvas-disable') {
-      enabled = false;
-      clearOverlayState();
-    } else if (e.data.type === 'canvas-deselect') {
-      selectedEl = null;
-    }
-  });
-
-  window.parent.postMessage({ type: 'canvas-overlay-ready' }, '*');
-
-  } catch (err) {
-    window.parent.postMessage({ type: 'canvas-overlay-error', message: String(err) }, '*');
-  }
-})();
-
-</script>
-</body>
+      })();
+      </script>
+      <!-- <script src="https://unpkg.com/lucide@latest"></script> -->
+  </body>
 </html>
