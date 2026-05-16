@@ -12,7 +12,7 @@ export default {
         'brand-gray': '#4a4a4a',
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        'Times New Roman - 400': ['Times New Roman', 'serif'],
       },
       borderRadius: {
         '4xl': '2rem',
